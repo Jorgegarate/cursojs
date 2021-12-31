@@ -1,0 +1,249 @@
+/*modificar parametro del navegador*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1REM = 10px */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+a h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.header-color {
+  background-color: #ffc107;
+}
+
+.list-none {
+  list-style: none;
+}
+.list-none li {
+  margin-left: 4rem;
+  font-weight: 600;
+  text-align: center;
+}
+.list-none li:nth-child(1) {
+  margin: 0;
+}
+
+.fondo {
+  background-position: center;
+  background-image: url(../img/imagen-banner.webp);
+  width: 100%;
+  height: 65rem;
+}
+.fondo--dos {
+  background: no-repeat;
+  background-image: url(../img/fondo2.jpg);
+  padding: 14rem 0 8rem 0;
+  color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+.fondo--dos h2 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media (max-width: 800px) {
+  .fondo--dos h2 {
+    font-size: 4rem;
+  }
+}
+
+ion-icon {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.title {
+  font-size: 4.5rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+.btn-height {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.btn-mediun {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+}
+.btn-mediun--lg {
+  margin-top: 3rem;
+  font-size: 2.3rem;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+}
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 30rem;
+}
+.card .info-card {
+  padding: 2rem;
+}
+.card .info-card h4 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.card .info-card p {
+  line-height: 1.8rem;
+}
+
+.precio {
+  text-align: initial;
+  text-decoration: line-through;
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+.precio--new {
+  font-size: 3rem;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-weight: 600;
+}
+
+.width-th {
+  width: 30rem;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(88, 88, 88, 0.14);
+  padding: 2rem 0rem;
+  min-height: 50rem;
+  min-width: 50rem;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.border--dashed {
+  border: 1px dashed #b3bbc2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.form-control {
+  height: 41px;
+  padding: 0.85rem 2rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #777;
+  background-color: #fafafa;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+  outline-width: 0;
+}
+
+.aside--color {
+  background-color: #fafafa;
+  padding: 2rem;
+}
+
+table {
+  width: 100%;
+}
+table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+span.badge {
+  position: absolute;
+  top: -5px;
+  right: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  padding: 3px 0px 0px;
+  font-size: 8px;
+  color: #fff !important;
+  background: #EB3941;
+  display: block;
+  border: 1px solid #EB3941;
+}
+
+.no-drop {
+  cursor: no-drop;
+}
+
+.opacidad-50 {
+  opacity: 50%;
+}
+
+.este {
+  cursor: all-scroll;
+}
+
+.border-red {
+  border-color: red;
+}
+
+.border-green {
+  border-color: green;
+}
+
+.alert-red {
+  color: red;
+}
+
+label span {
+  position: absolute;
+  font-size: 3.5rem;
+  color: red;
+  margin-top: -15px;
+}
+
+/*# sourceMappingURL=style.css.map */
